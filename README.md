@@ -2,7 +2,7 @@
  * @Author: error: git config user.email & please set dead value or install git
  * @Date: 2024-08-13 04:54:22
  * @LastEditors: error: git config user.email & please set dead value or install git
- * @LastEditTime: 2024-09-22 21:43:29
+ * @LastEditTime: 2024-09-23 00:42:02
  * @FilePath: \YiYiTimerClockRing\README.md
  * @Description: 
  * 
@@ -17,6 +17,7 @@
 
 ## 使用元器件
 + stc89c52
++ DS1302
 + 4位时钟数码管
 + W25Q32
 + AMS1117
