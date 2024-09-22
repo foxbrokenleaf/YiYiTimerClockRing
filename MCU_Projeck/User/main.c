@@ -1,17 +1,21 @@
 /*
- * @Author: error: git config user.email & please set dead value or install git
- * @Date: 2024-07-21 15:45:27
+ * @Author: 狐碎叶
+ * @Date: 2024-09-22 22:38:50
  * @LastEditors: error: git config user.email & please set dead value or install git
- * @LastEditTime: 2024-08-22 23:36:22
+ * @LastEditTime: 2024-09-22 23:55:54
  * @FilePath: \MCU_Projeck\User\main.c
- * @Description: 
+ * @Description: 主程序
  * 
  * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
  */
-#include "stm32f10x.h"
-int main(){
+#include <REG52.H>
+#include "../Device/data_type.h"
+#include "../Device/ds1302.h"
+
+void main(){
+
 
     while(1){
-
+        
     }
 }
