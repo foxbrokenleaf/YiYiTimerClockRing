@@ -2,7 +2,7 @@
  * @Author: 狐碎叶
  * @Date: 2024-09-22 22:42:35
  * @LastEditors: error: git config user.email & please set dead value or install git
- * @LastEditTime: 2024-09-23 00:33:00
+ * @LastEditTime: 2024-09-23 23:56:11
  * @FilePath: \MCU_Projeck\Device\ds1302.c
  * @Description: DS1302模块
  * 
@@ -25,7 +25,7 @@ void write_bit(uint8_t value){
     if(value) SDA = 1;
     else SDA = 0;
     SCL = 1;
-    
+    SCL = 0;
 }
 /*
  * @brief: 读取一位数据
@@ -35,8 +35,9 @@ void write_bit(uint8_t value){
 uint8_t read_bit(){
     uint8_t res = 0;
     SCL = 0;
-    res = SDA;
     SCL = 1;
+    res = SDA;
+    SCL = 0;
     return res;
 }
 /*
